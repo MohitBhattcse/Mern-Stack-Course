@@ -1,0 +1,76 @@
+/* /* PseudoA
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: firebrick;
+
+}
+h2:hover{
+    color:red;
+}
+#header:hover{
+    background-color: lightskyblue;
+    color: green;
+    padding: 100px;
+}
+a:active{
+    color:black
+} */
+/* #header{
+    position: static;
+    border: 2px dashed blue;
+} */
+/*will change its position from left right wherever you want*/
+/* header{
+    position: static;
+    border: 2px dashed blue;
+} 
+#header{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: 2px dashed blue;
+} */
+/* #header{
+    position: fixed;
+    margin: 10px auto;
+    top: 10px;
+    text-align: center;
+    color: white;
+    width: 500px;
+    background-color: gold;
+    border: 2px dashed blue;
+} */
+ /* Relative */
+/* #header{
+    position: relative;
+    border: 2px double black;
+    height: 200px;
+    width: 400px;
+} */
+/* absolute */
+/* #header h2{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top:15%;
+    left: 24%;
+    border: 2px dashed red;
+} */
+
+#nav{
+    background-color: lightskyblue;
+    margin: 10px auto;
+    padding: 5px;
+    position: sticky;
+    top:10px;
+ }
+
+ #nav ul{
+    margin: 10px auto;
+ }
+#nav ul li{
+    display: inline; 
+    font-weight: bold;
+}
